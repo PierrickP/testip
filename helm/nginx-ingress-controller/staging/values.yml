@@ -1,0 +1,11 @@
+config:
+  "ssl-redirect": "true"
+service:
+  annotations:
+    "service.beta.kubernetes.io/scw-loadbalancer-id": "${lb_id}"
+    "service.beta.kubernetes.io/scw-loadbalancer-certificate-ids": "${certif_id}"
+    "service.beta.kubernetes.io/scw-loadbalancer-protocol-http": "true"
+    "service.beta.kubernetes.io/scw-loadbalancer-use-hostname": "true"
+  targetPorts:
+    http: http
+    https: http

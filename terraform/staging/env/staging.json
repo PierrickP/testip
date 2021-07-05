@@ -1,0 +1,14 @@
+{
+  "region": "fr-par",
+  "zone": "fr-par-1",
+  "fluctuo_testip_cluster_name": "fluctuo_testip_cluster",
+  "fluctuo_testip_cluster_version": "1.19.11",
+  "fluctuo_testip_cluster_cni": "cilium",
+  "tags": ["k8s", "cluster"],
+  "fluctuo_testip_pool_name": "fluctuo_testip_pool",
+  "fluctuo_testip_pool_node_type": "DEV1-M",
+  "fluctuo_testip_pool_size": "1",
+  "fluctuo_env": "staging",
+  "fluctuo_helm_release_app_name": "fluctuo-helm-release-app",
+  "fluctuo_ingress_argocd_wait_for_load_balancer": true
+}
